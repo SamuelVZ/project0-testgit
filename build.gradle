@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+
+    //TODO 1: implement the postgres dependency
+    implementation 'org.postgresql:postgresql:42.3.3'
+
+    //TODO 24: implement Javalin, logback(for logs and to not have the Slf4j error) and jackson(to convert to json files)
+    implementation 'io.javalin:javalin:4.3.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.2'
+    implementation 'ch.qos.logback:logback-classic:1.2.11'
+
+    //TODO 37: include the Mockito dependency for testing
+    implementation 'org.mockito:mockito-core:4.3.1'
+
+}
+
+test {
+    useJUnitPlatform()
+}

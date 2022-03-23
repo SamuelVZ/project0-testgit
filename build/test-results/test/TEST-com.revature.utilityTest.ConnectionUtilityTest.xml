@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revature.utilityTest.ConnectionUtilityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-12T05:44:44" hostname="DESKTOP-RVLR18L" time="1.104">
+  <properties/>
+  <testcase name="testConnection()" classname="com.revature.utilityTest.ConnectionUtilityTest" time="1.104"/>
+  <system-out><![CDATA[org.postgresql.jdbc.PgConnection@5f89da4c
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
